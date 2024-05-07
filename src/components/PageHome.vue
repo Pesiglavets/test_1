@@ -1,6 +1,8 @@
 <template>
-    <div> ВСЕ РАБОТАЕТ </div>
-    <p>Отлично прям совсем</p>
+    <div class="home"> # HOME # </div>
+    <img class="anime_image" src="https://s1.zerochan.net/Power.600.3096181.jpg" alt="Описание изображения">
+
+    <p class="anime_persname"> POWER </p>
 </template>
 
 <script>
@@ -16,6 +18,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
     @import "../components/styles/pageHome/app-page-home";
 </style>
